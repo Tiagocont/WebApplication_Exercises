@@ -1,1 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilita+One&display=swap');
 
+body{
+    margin: 0;
+    background-color: bisque;
+}
+
+.box{
+    width: 550px;
+    height: 525px;
+    border: solid black 3px;
+    background-color: cadetblue;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.btw{
+    margin: auto;
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+    background-color: whitesmoke;
+    border: solid black 2px;
+}
+
+
+figcaption{
+    font-family: "Lilita One";
+    text-align: center;
+    font-size: 15px;
+}
+
+img{
+    width: 100%;
+    border-radius: 15px;
+    object-fit: contain;
+    margin: auto;
+}
+
+.content{
+    text-justify: justify;
+    justify-content: center;
+    width: 400px;
+    margin: auto;
+
+}
+
+p{
+    font-family: "Bebas Neue";
+    text-align: justify;
+}
+
+@media screen and (max-width: 615px){
+    .box{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 485px){
+    .box{
+        width: 350px;
+    }
+    .content{
+        width: 85%;
+        font-size: 14px
+    }
+}
+
+@media screen and (max-width: 375px){
+    .box{
+        width: 280px;    
+        height:600px;
+        margin-top: 15px;
+    }
+}
