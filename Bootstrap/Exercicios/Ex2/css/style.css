@@ -1,1 +1,37 @@
+body{
+    background-color: black;
+}
 
+.tam{
+    padding-top: 15px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 350px;
+}
+
+.tm{
+    margin-top: 30px;
+    color: blueviolet;
+    background-color: white;
+    font-weight: 500;
+}
+
+.box{
+    padding-top: 17px;
+    align-items: center;
+    text-align: center;
+    margin: 45px auto;
+    width: 450px;
+    height: 625px;
+    background-color: rgb(33, 4, 61);
+    border-radius: 15px;
+}
+
+.color{
+    color: white;
+}
+
+.mrg{
+    margin-top: 10px;
+}
